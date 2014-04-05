@@ -26,6 +26,7 @@ h1 {
 		}
 		body {
 
-			background-image:url("../images/orchid zen.jpg");
-			background-size:auto;
+			background-image:url("../images/Bamboo.jpg");
+		 	background-size: cover;
+			background-attachment:fixed;
 		}
