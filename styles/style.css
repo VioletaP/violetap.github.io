@@ -12,10 +12,10 @@ h1 {
 			text-align: center;
 		}	
 		p#second_line {
-			color: purple;
+			color: green;
 		}	
 		a {
-			color: purple;
+			color: green;
 			font-size: 30px;
 			font-style: italic;
 			text-align: center;
@@ -26,7 +26,7 @@ h1 {
 		}
 		body {
 
-			background-image:url("../images/Bamboo.jpg");
+			background-image:url("../images/bamboo-leaves.jpg");
 		 	background-size: cover;
 			background-attachment:fixed;
 		}
