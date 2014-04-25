@@ -2,21 +2,21 @@ File.write("./en/index.html",'<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Violeta</title>
+	<title>|CompTest</title>
 	<link rel="stylesheet" type="text/css" href="../styles/style.css">
 	
 </head>
 <body>
 
-	<h1>Zen spot</h1>
+	<h1>%{headline}</h1>
 
 	
 	<article 
 		class="main"
 		title="Hello!"
 	>
-			<p id="first_line">LIVE as if you were to die tomorrow.</p>
-			<p id="second_line"> LEARN as if you were to live forever. </p><p>Gandhi</p>
+			<p id="first_line">%{firstline}</p>
+			<p id="second_line">%{secindline}</p><p>%{name}</p>
 			<a href="http://www.facebook.com/violeta.popova">Facebook</a> 
 			<a href="../bg/index.html">BG</a>
 			&lt;end&gt;
@@ -25,3 +25,17 @@ File.write("./en/index.html",'<!DOCTYPE html>
 
 </body>
 </html>')
+
+en_text = {
+:headline => "Zen spot",
+:firstline => "LIVE as if you were to die tomorrow.",
+:secondine => "LEARN as if you were to live forever.",
+:name => "Gandhi",
+}
+
+bg_text = {
+:headline => "Дзен кътче",
+:firstline => "ЖИВЕЙ така, сякаш няма да има утре.",
+:secondline => "УЧИ така, сякаш ще живееш вечно...",
+:name =>"Ганди",
+}
