@@ -1,6 +1,4 @@
-#File.write
-puts ("./en/index.html",'
-<!DOCTYPE html>
+File.write("./en/index.html",'<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
