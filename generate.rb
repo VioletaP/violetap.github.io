@@ -1,4 +1,5 @@
-
+#File.write
+puts ("./en/index.html",'
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,4 +26,4 @@
 	
 
 </body>
-</html>
+</html>')
