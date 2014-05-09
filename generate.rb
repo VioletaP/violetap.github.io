@@ -1,8 +1,9 @@
+#encoding: utf-8
 File.write("./en/index.html",'<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>|CompTest</title>
+	<title> Violeta </title>
 	<link rel="stylesheet" type="text/css" href="../styles/style.css">
 	
 </head>
@@ -21,21 +22,20 @@ File.write("./en/index.html",'<!DOCTYPE html>
 			<a href="../bg/index.html">BG</a>
 			&lt;end&gt;
 	</article>
-	
 
 </body>
 </html>')
 
-en_text = {
-:headline => "Zen spot",
-:firstline => "LIVE as if you were to die tomorrow.",
-:secondline => "LEARN as if you were to live forever.",
-:name => "Gandhi",
-}
+# en_text = {
+# :headline => "Zen spot",
+# :firstline => "LIVE as if you were to die tomorrow.",
+# :secondline => "LEARN as if you were to live forever.",
+# :name => "Gandhi",
+# }
 
-bg_text = {
-:headline => "Дзен кътче",
-:firstline => "ЖИВЕЙ така, сякаш няма да има утре.",
-:secondline => "УЧИ така, сякаш ще живееш вечно...",
-:name =>"Ганди",
-}
+# bg_text = {
+# :headline => "Дзен кътче",
+# :firstline => "ЖИВЕЙ така, сякаш няма да има утре.",
+# :secondline => "УЧИ така, сякаш ще живееш вечно...",
+# :name =>"Ганди",
+# }
