@@ -16,7 +16,7 @@ File.write("./en/index.html",'<!DOCTYPE html>
 		title="Hello!"
 	>
 			<p id="first_line">%{firstline}</p>
-			<p id="second_line">%{secindline}</p><p>%{name}</p>
+			<p id="second_line">%{secondline}</p><p>%{name}</p>
 			<a href="http://www.facebook.com/violeta.popova">Facebook</a> 
 			<a href="../bg/index.html">BG</a>
 			&lt;end&gt;
@@ -29,7 +29,7 @@ File.write("./en/index.html",'<!DOCTYPE html>
 en_text = {
 :headline => "Zen spot",
 :firstline => "LIVE as if you were to die tomorrow.",
-:secondine => "LEARN as if you were to live forever.",
+:secondline => "LEARN as if you were to live forever.",
 :name => "Gandhi",
 }
 
