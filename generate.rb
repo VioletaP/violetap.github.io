@@ -1,5 +1,5 @@
 #encoding: utf-8
-html_content = File.read("./template.html")
+html_content = File.read("./template/template.html")
 
 en_text = {
 :headline => "Zen spot",
