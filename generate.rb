@@ -1,19 +1,23 @@
 #encoding: utf-8
 html_content = File.read("./template/template.html")
 
-en_text = {
-:headline => "Zen spot",
-:firstline => "LIVE as if you were to die tomorrow.",
-:secondline => "LEARN as if you were to live forever.",
-:name => "Gandhi",
-}
+require 'yaml'
+en_text = YAML.load_file("en_index.yml")
+bg_text = YAML.load_file("bg_index.yml")
 
-bg_text = {
-:headline => "Дзен кътче",
-:firstline => "ЖИВЕЙ така, сякаш няма да има утре.",
-:secondline => "УЧИ така, сякаш ще живееш вечно...",
-:name =>"Ганди",
-}
+#en_text = {
+# :headline => "Zen spot",
+# :firstline => "LIVE as if you were to die tomorrow.",
+# :secondline => "LEARN as if you were to live forever.",
+# :name => "Gandhi",
+# }
+
+# bg_text = {
+# :headline => "Дзен кътче",
+# :firstline => "ЖИВЕЙ така, сякаш няма да има утре.",
+# :secondline => "УЧИ така, сякаш ще живееш вечно...",
+# :name =>"Ганди",
+# }
 
 File.write("./en/index.html", html_content % en_text)
 
